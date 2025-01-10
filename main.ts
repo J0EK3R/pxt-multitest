@@ -42,3 +42,10 @@ basic.forever(function () {
     mk6hub.loop()
     basic.pause(100)
 })
+basic.forever(function () {
+    if (hub == 0) {
+        basic.showNumber(speed1)
+    } else if (hub == 1) {
+        basic.showNumber(speed2)
+    }
+})
