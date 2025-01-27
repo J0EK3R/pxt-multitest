@@ -4,7 +4,7 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "mk6hub": "github:j0ek3r/pxt-mk6hub#5b5f9f1f1e03d570d441fdae4bacd30ebee4b182"
+        "mk6hub": "github:j0ek3r/pxt-mk6hub#fd6120db59ccaa67cf16524c7b31b32c0bfb89cc"
     },
     "files": [
         "main.blocks",

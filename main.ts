@@ -26,7 +26,7 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
     hub += 1
-    if (hub >= 2) {
+    if (hub > 2) {
         hub = 0
     }
 })
@@ -38,10 +38,6 @@ speed1 = 0
 speed2 = 0
 mk6hub.init(mk6hub.Hub.A)
 mk6hub.init(mk6hub.Hub.B)
-basic.forever(function () {
-    mk6hub.loop()
-    basic.pause(100)
-})
 basic.forever(function () {
     if (hub == 0) {
         basic.showNumber(speed1)
