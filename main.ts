@@ -36,8 +36,8 @@ let hub = 0
 hub = 0
 speed1 = 0
 speed2 = 0
-MK6.init(MK6.Module.M1)
 MK6.init(MK6.Module.M2)
+MK6.init(MK6.Module.M1)
 basic.forever(function () {
     if (hub == 0) {
         basic.showNumber(speed1)
