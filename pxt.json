@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "M0uld-K1ng-BT-Module-6.0": "github:J0EK3R/pxt-bt-mk-6#254d6a33e3e9b7ad6addd1966d767d7b8dc5c318"
+        "M0uld-K1ng-BT-Module-6.0": "github:j0ek3r/pxt-bt-mk-6#254d6a33e3e9b7ad6addd1966d767d7b8dc5c318"
     },
     "files": [
         "main.blocks",
