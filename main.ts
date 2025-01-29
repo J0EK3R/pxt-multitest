@@ -26,7 +26,7 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
     hub += 1
-    if (hub > 2) {
+    if (hub > 1) {
         hub = 0
     }
 })
